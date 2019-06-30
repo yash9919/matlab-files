@@ -10,7 +10,7 @@ A=randn(M,S);
 x=max(A,[],1)
 
 %loop to add index of highest value of each column in A 
-%Index of highest value of each column is stroed in a new row of each column 
+%Index of highest value of each column is stored in a new row of each column of A
 for i=1:S
   [r,c]=find(A==x(1,i));
    A(M+1,i)=r;
