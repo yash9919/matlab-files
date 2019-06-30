@@ -1,3 +1,4 @@
+%Programme to find maximum of 3D array by converting it to column
 sd=zeros(1,4,10000)
 for x = 1:1
     for y = 1:4
