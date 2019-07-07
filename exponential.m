@@ -5,9 +5,9 @@ for i =1:200
         Y(i,j)=randn(1);
     end
 end
-X=X.^2;
-Y=Y.^2;
-Z=sqrt(X+Y);
+N=X.^2;
+M=Y.^2;
+Z=sqrt(N+M);
 Z=0.5*Z;
 S=Z.^2;
 hist(S)
